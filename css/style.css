@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 * {
-
+    
 }
 
 body {
@@ -70,7 +70,13 @@ body {
 
 
 .narrow {
-    width: 75%;
+    width: 80%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+}
+
+.narrow-project {
+    width: 65%;
     margin: 1.5rem auto;
     padding-top: 2rem;
 }
@@ -107,8 +113,9 @@ body {
     margin-left: 5px;
 }
 
-.info-buttons button {
-    width: 130px;
+.info-buttons {
+    color: #fff;
+    width: 100%;
  }
 
 
@@ -159,13 +166,15 @@ h3.heading {
     margin: 4rem auto;
 }
 
-.info-buttons {
-   width: 100%;
+
+.feature a {
+    display: inline-block;
+    text-decoration: none;
 }
 
-
 .feature h3 {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
+    font-weight: 700;
     text-transform: uppercase;
     padding-bottom: .4rem;
 }
@@ -174,14 +183,7 @@ h3.heading {
     display: inline;
 }
 
-.feature a {
-    text-decoration: none;
-    color: #505962;
-}
 
-.feature a:hover {
-    color: #16a085;
-}
 
 .feature p {
     font-size: 1.1rem;
@@ -276,6 +278,23 @@ footer svg.svg-inline--fa {
         max-width: 60%;
         display: block;
         margin: 0 auto;
+    }
+
+    .narrow-project {
+        width: 85%;
+    }
+    
+
+    .project-info p {
+        text-align: center;
+    }
+
+    .project-info h3 {
+        text-align: center;
+    }
+
+    .info-buttons {
+        text-align: center;
     }
 
 }
