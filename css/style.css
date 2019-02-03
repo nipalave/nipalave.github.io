@@ -48,7 +48,6 @@ body {
     max-width: 100%;
     position: absolute;
     top: 38%;
-    z-index: 1;
     color: #fff;
     text-transform: uppercase;
 }
