@@ -94,13 +94,14 @@ body {
 
 .btn-secondary {
     
-    border-radius: 0;
-    font-size: .9rem;
+    font-weight: 500;
+    font-size: 16px;
     padding: .6rem 1rem;
     margin: 2px;
-    color: #fff;
-    background-color: #1abc9c;
-    border-color: #1abc9c;
+    color: #1abc9c;
+    background-color: transparent;
+    border: 1.5px solid #1abc9c;
+    border-radius: 0px;
 }
 
 .btn-secondary:hover,
